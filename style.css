@@ -1,0 +1,617 @@
+body {
+    background-color: #2B2B2B !important;
+}
+
+@font-face {
+    font-family: WorkSans;
+    src: url(WorkSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: SpaceMono;
+    src: url(SpaceMono-Regular.ttf);
+}
+
+* {
+    font-family: WorkSans;
+}
+
+.navbar {
+    background-color: #2B2B2B !important;
+    height: 126px;
+}
+
+.nav_toggler_c {
+    border: none !important;
+    margin-right: 30px;
+}
+
+.nav_burger_icon {
+    background-image: url(Burger\ Menu.png) !important;
+}
+
+.brand_img_c {
+    padding-right: 15px;
+    margin-top: -5px;
+}
+
+.brand_c {
+    margin-left: 50px;
+    color: #FFFFFF !important;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+
+.ul_c {
+    position: absolute;
+    right: 50;
+    margin-top: 2px;
+    background-color: #2B2B2B !important;
+}
+
+.nav-item {
+    margin-top: 25px;
+}
+
+.nav_item_text_c {
+    color: #FFFFFF !important;
+    font-weight: bold !important;
+}
+
+.nav_item_button_c {
+    width: 152px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    margin-top: -17.5px;
+    background-color: #A259FF;
+    display: flex;
+}
+
+.img_user {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.p_SU {
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 17px;
+    margin-left: 12px;
+}
+
+.div_CA {
+    width: 100%;
+    height: 691px;
+    margin-top: 29px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .brand_c {
+        font-size: 16px !important;
+    }
+}
+@media only screen and (min-width: 800px) {
+    .div_CA {
+        display: flex;
+    }
+}
+
+
+.input_subscribe_email {
+    height: 55px;
+    margin-top: 2.5px;
+    margin-left: 12px;
+    border: none;
+}
+
+.input_subscribe_email:focus {
+    outline: none;
+}
+
+.button_Subscribe {
+    width: 211px;
+    height: 60px;
+    background-color: #A259FF;
+    border-radius: 20px;
+    border: none;
+    margin-left: 215px;
+    position: absolute;
+}
+
+.p_button_Subscribe {
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.div_subscribe_form_sm {
+    width: 315px;
+    height: 108px;
+}
+
+.input_subscribe_email_sm {
+    width: 315px;
+    height: 46px;
+    border-radius: 20px;
+    border: none;
+    
+}
+
+.input_subscribe_email_sm:focus {
+    outline: none;
+}
+
+.button_Subscribe_sm {
+    width: 315px;
+    height: 46px;
+    background-color: #A259FF;
+    border-radius: 20px;
+    border: none;
+    margin-top: 16px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .div_subscribe_form_sm {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .div_subscribe_form {
+        display: none !important;
+    }
+    .div_subscribe_form_sm {
+        margin-left: 0px !important;
+    }
+}
+
+.img_cover_profile {
+    width: 100%;
+}
+
+.img_cover_profile_2 {
+    width: 100%;
+}
+
+.div_Animakid {
+    width: 1050px;
+    height: 457px;
+    margin: auto;
+}
+
+.h1_Animakid {
+    font-size: 51px;
+    color: #FFFFFF;
+    font-weight: bold;
+    position: absolute;
+    margin: 40px;
+}
+
+.div_artist_info {
+    width: 599px;
+    height: 310px;
+    margin-top: 120px;
+    margin-left: 40px;
+}
+
+.div_stats {
+    width: 501px;
+    height: 74px;
+    display: flex;
+}
+
+.div_stats_3 {
+    width: 156px;
+    height: 74px;
+    padding-right: 20px;
+}
+
+.p_stats_1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-family: SpaceMono;
+    white-space: nowrap;
+}
+
+.p_stats_2 {
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-top: -20px;
+    white-space: nowrap;
+}
+
+.div_Bio {
+    width: 599px;
+    height: 80px;
+    margin-top: 30px;
+}
+
+.p_B {
+    font-size: 22px;
+    font-weight: bold;
+    color: #858584;
+    font-family: SpaceMono;
+}
+
+.p_B_2 {
+    text-transform: capitalize;
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-top: -5px;
+}
+
+.div_Links {
+    width: 599px;
+    height: 77px;
+    margin-top: 30px;
+}
+
+.img_pr_10 {
+    padding-right: 10px;
+}
+
+.div_tabs {
+    width: 1050px;
+    margin: auto;
+    display: flex;
+    margin-top: -10px;
+}
+
+.div_tab {
+    width: 350px;
+    height: 60px;
+    display: flex;
+}
+
+.div_tab_active {
+    border-bottom: 2px solid #858584;
+}
+
+.p_tab {
+    font-size: 22px;
+    color: #858584;
+    margin-top: 14px;
+    margin-left: 99px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.p_tab_active {
+    color: #FFFFFF;
+}
+
+.div_tab_num {
+    min-width: 40px;
+    height: 32px;
+    border-radius: 20px;
+    background-color: #3B3B3B;
+    display: flex;
+    margin-top: 14px;
+    margin-left: 16px;
+    justify-content: center;
+}
+
+.div_tab_num_active {
+    background-color: #858584;
+}
+
+.p_tab_num {
+    white-space: nowrap;
+    font-family: SpaceMono;
+    margin-top: 5px;
+    color: #FFFFFF;
+}
+
+.div_cards_section {
+    width: 100%;
+    height: 1627px;
+    background-color: #3B3B3B;
+    margin-top: -50px;
+}
+
+.col_s {
+    width: 335px !important;
+}
+
+.col_s_s {
+    width: 148px !important;
+}
+
+.div_NFT_Card {
+    width: 330px;
+    height: 469px;
+    border-radius: 20px;
+    background-color: #2B2B2B;
+}
+
+.p_NFT_Card_Title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.div_Artist_Avatar_Name {
+    width: 270px;
+    height: 24px;
+    margin-top: -10px;
+    margin-left: 30px;
+    display: flex;
+}
+
+.p_Artist_Name {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-family: SpaceMono;
+    margin-left: 12px;
+}
+
+.div_Price_Highestbid {
+    width: 270px;
+    height: 43px;
+    margin-top: 27px;
+    margin-left: 30px;
+    display: flex;
+}
+
+.div_Price {
+    width: 135px;
+    height: 43px;
+}
+
+.p_PHB {
+    font-size: 12px;
+    color: #858584;
+    font-family: SpaceMono;
+}
+
+.p_PHB_2 {
+    color: #FFFFFF;
+    font-family: SpaceMono;
+    margin-top: -15px;
+}
+
+.div_Highestbid {
+    width: 135px;
+    height: 43px;
+}
+
+.p_PHB_R {
+    text-align: right;
+}
+
+.footer {
+    width: 100%;
+    height: 360px;
+    background-color: #3B3B3B;
+    margin-top: 3px;
+}
+
+.div_NFT_Marketplace_Info {
+    height: 191px;
+}
+
+.h5_H {
+    font-size: 22px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: SpaceMono;
+}
+
+.div_AddInfo_4 {
+    margin-top: 30px;
+}
+
+.p_S {
+    color: #CCCCCC;
+    font-size: 16px;
+}
+
+.div_Icons {
+    width: 158px;
+    height: 32px;
+    display: flex;
+}
+
+.a_ml_10 {
+    margin-left: 10px;
+}
+
+.div_AddInfo_4_2 {
+    height: 124px;
+    margin-top: 30px;
+}
+
+.div_subscribe_form {
+    width: 420px;
+    height: 60px;
+    border-radius: 20px;
+    margin-top: 40px;
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+.p_Copyright {
+    font-size: 12px;
+    color: #CCCCCC;
+    margin-top: 20px;
+}
+
+.div_CTA {
+    width: 351px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .div_CTA {
+        display: flex;
+    }
+    .CTA_2 {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .div_CTA {
+        margin-top: -165px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .CTA_1 {
+        width: 315px !important;
+    }
+    .CTA_2 {
+        width: 315px !important;
+        margin-top: 20px;
+    }
+    .Img_CTA {
+        left: 80 !important;
+    }
+    .Img_CTA_2 {
+        left: 100 !important;
+    }
+    .row_rrr {
+        flex-direction: column-reverse !important;
+        margin-top: 50px !important;
+    }
+    .div_artist_info {
+        margin-top: 30px !important;
+        margin-left: 0px;
+        width: 315px;
+        margin: auto;
+    }
+    .div_stats {
+        width: 315px;
+    }
+    .div_stats_3 {
+        width: 91px;
+    }
+    .p_stats_1 {
+        font-size: 22px;
+    }
+    .p_stats_2 {
+        font-size: 16px;
+    }
+    .div_Bio {
+        width: 315px;
+    }
+    .div_Links {
+        width: 315px;
+    }
+    .p_B {
+        font-size: 16px;
+    }
+    .p_B_2 {
+        font-size: 16px;
+    }
+    .div_CTA {
+        margin-top: 0px !important;
+        margin: auto;
+        width: 315px;
+    }
+    .h1_Animakid {
+        font-size: 28px;
+        margin-left: 30px;
+    }
+    .img_cover_profile {
+        display: none;
+    }
+    .div_tabs {
+        width: 315px;
+    }
+    .div_tab {
+        width: 105px;
+    }
+    .p_tab {
+        font-size: 16px;
+        margin-left: 21px;
+    }
+    .div_tab_active {
+        border-bottom: 1px solid #858584;
+    }
+    .div_tab_num {
+        display: none;
+    }
+    .hr_b {
+        margin-top: 130px !important;
+    }
+    .row_d_n {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .img_cover_profile_2 {
+        display: none;
+    }
+}
+
+.CTA_1 {
+    width: 186px;
+    height: 60px;
+    border-radius: 20px;
+    border: 2px solid #A259FF;
+    background-color: #A259FF;
+    position: relative;
+}
+
+.Img_CTA {
+    position: absolute;
+    left: 20;
+    bottom: 17.5;
+}
+
+.p_CTA {
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.CTA_2 {
+    width: 145px;
+    height: 60px;
+    border-radius: 20px;
+    border: 2px solid #A259FF;
+    background: none;
+    position: relative;
+}
+
+@media only screen and (max-width: 1100px) {
+    .footer {
+        margin-top: 3px;
+        height: 850px;
+    }
+    .div_AddInfo_4 {
+        width: 320px;
+    }
+    .div_239 {
+        width: 315px !important;
+    }
+    .c_ml {
+        margin-left: 20px !important;
+    }
+    .c_ml_2 {
+        margin-left: 80px;
+    }
+    .c_ml_3 {
+        margin-left: 185px !important;
+    }
+    .c_s {
+        width: 427.5px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .c_ml_3 {
+        margin-left: 22.5px !important;
+    }
+    .c_s {
+        width: 317px;
+    }
+}
+
